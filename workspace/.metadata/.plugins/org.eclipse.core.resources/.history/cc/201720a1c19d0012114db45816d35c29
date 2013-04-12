@@ -1,0 +1,6 @@
+package funsets
+
+object setsheet {
+  println("Welcome to the Scala worksheet")
+  x = 1
+}

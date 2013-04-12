@@ -1,0 +1,8 @@
+package funsets
+
+object setsheet {
+	import FunSets._
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  Set(1) + Set(2)                                 //> res0: scala.collection.immutable.Set[Int] = Set(1)
+  singletonSet(2)                                 //> res1: Int => Boolean = Set(2)
+}

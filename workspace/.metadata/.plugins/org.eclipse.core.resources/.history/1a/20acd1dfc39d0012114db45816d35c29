@@ -1,0 +1,11 @@
+package funsets
+
+object setsheet {
+  import FunSets._
+
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  var x = Set(1,3)                                //> x  : scala.collection.immutable.Set[Int] = Set(1, 3)
+  var y = Set(2)                                  //> y  : scala.collection.immutable.Set[Int] = Set(2)
+  x ++ y                                          //> res0: scala.collection.immutable.Set[Int] = Set(1, 3, 2)
+  y                                               //> res1: scala.collection.immutable.Set[Int] = Set(2)
+}

@@ -1,0 +1,12 @@
+package funsets
+  import FunSets._
+
+
+object setsheet {
+  println("Welcome to the Scala worksheet")
+  var x = Set(1,3)
+  var y = Set(2)
+  x ++ y
+  y
+  singletonSet(4)
+}

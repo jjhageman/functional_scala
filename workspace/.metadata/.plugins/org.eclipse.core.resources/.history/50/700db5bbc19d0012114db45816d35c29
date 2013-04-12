@@ -1,0 +1,6 @@
+package funsets
+
+object setsheet {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  var x = Set(1)                                  //> x  : scala.collection.immutable.Set[Int] = Set(1)
+}

@@ -1,0 +1,9 @@
+package funsets
+
+object setsheet {
+  println("Welcome to the Scala worksheet")
+  
+  singletonSet(2)
+  var s1=Set(1)
+  var s2=Set(2)
+}

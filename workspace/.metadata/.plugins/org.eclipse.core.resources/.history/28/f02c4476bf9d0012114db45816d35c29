@@ -1,0 +1,9 @@
+package funsets
+
+object setsheet {
+	import FunSets._
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  singletonSet(2)                                 //> res0: Int => Boolean = Set(2)
+
+}
